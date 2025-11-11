@@ -1,13 +1,15 @@
 
-🚀 BiSeNet V2 (Bilateral Segmentation Network V2) 설명
-BiSeNet V2는 **실시간 의미론적 분할(Real-Time Semantic Segmentation)**을 위해 고안된 효율적이고 효과적인 신경망 구조입니다. 의미론적 분할은 이미지의 모든 픽셀을 해당 클래스(예: 하늘, 자동차, 건물)로 분류하는 작업입니다.
+# 🚀 BiSeNet V2 (Bilateral Segmentation Network V2) 설명
+BiSeNet V2는 **실시간 의미론적 분할(Real-Time Semantic Segmentation)**을 위해 고안된 효율적이고 효과적인 신경망 구조입니다. 
+의미론적 분할은 이미지의 모든 픽셀을 해당 클래스(예: 하늘, 자동차, 건물)로 분류하는 작업입니다.
 
-BiSeNet V2의 핵심 목표는 **정확도(Accuracy)**와 속도(Speed) 사이의 균형을 맞추는 것입니다. 이는 일반적인 분할 모델(예: FCN, DeepLab)이 고해상도 정보와 문맥적 정보를 모두 처리하느라 속도가 느려지는 문제를 해결하기 위해 두 개의 병렬 브랜치를 사용하는 것이 특징입니다.
+BiSeNet V2의 핵심 목표는 **정확도(Accuracy)**와 속도(Speed) 사이의 균형을 맞추는 것입니다.
+이는 일반적인 분할 모델(예: FCN, DeepLab)이 고해상도 정보와 문맥적 정보를 모두 처리하느라 속도가 느려지는 문제를 해결하기 위해 두 개의 병렬 브랜치를 사용하는 것이 특징입니다.
 
-1. 🏗️ BiSeNet V2의 핵심 구조
+## BiSeNet V2의 핵심 구조
 BiSeNet V2는 서로 다른 정보를 담당하는 두 개의 주요 브랜치와 이를 결합하는 레이어로 구성됩니다.
 
-1. Detail Branch (세부 정보 브랜치)
+# 1. Detail Branch (세부 정보 브랜치)
 목표: 고해상도의 공간적 세부 정보(Spatial Details), 즉 물체의 경계와 미세한 디테일을 포착합니다.
 
 구조적 특징:
@@ -18,7 +20,7 @@ BiSeNet V2는 서로 다른 정보를 담당하는 두 개의 주요 브랜치�
 
 작은 스트라이드 (Small Stride): 다운샘플링을 적게 하여 입력 이미지와 유사한 고해상도 특징 맵을 유지합니다.
 
-2. Semantic Branch (의미론적 브랜치)
+# 2. Semantic Branch (의미론적 브랜치)
 목표: 고수준의 문맥적 정보(High-level Semantic Context), 즉 이미지의 전체적인 내용과 의미를 파악합니다.
 
 구조적 특징:
