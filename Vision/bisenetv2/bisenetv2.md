@@ -1,5 +1,5 @@
 
-# 🚀 BiSeNet V2 (Bilateral Segmentation Network V2) 설명
+# 🚀 BiSeNet V2 (Bilateral Segmentation Network V2)
 BiSeNet V2는 **실시간 의미론적 분할(Real-Time Semantic Segmentation)**을 위해 고안된 효율적이고 효과적인 신경망 구조입니다.
 
 
