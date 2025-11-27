@@ -31,7 +31,11 @@
         - 클래스 확률 (Class probability)
 
 
+
+
 > 최종적으로는
+
+
 > (x, y, w, h, confidence, class_prob) 을 예측하여 객체의 위치와 종류를 동시에 파악합니다.
 
 
