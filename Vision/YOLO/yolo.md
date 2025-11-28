@@ -96,10 +96,12 @@
 >  ⚠️ 단점	작은 객체 탐지에 약함 (grid 해상도 한계)
 > anchor 설정에 따라 성능 변동
 
+> ### 7. YOLO 모델 사이즈별 구조 & 성능 비교
 
+> <img width="929" height="314" alt="image" src="https://github.com/user-attachments/assets/57104f3a-fe4d-4435-a90b-67bd1f50cdb3" />
+> mAP(mean Average Precision)은 COCO 데이터셋 기준, FPS는 640×640 입력 기준 추정치
 
-
-> ### 🧬 7. YOLO의 버전별 발전 요약
+> ### 🧬 8. YOLO의 버전별 발전 요약
 
 >  YOLOv1 (2016)	최초 모델. 단일 CNN으로 객체 탐지 시도. 작은 객체 성능 낮음
 >  YOLOv2 (YOLO9000)	Anchor box 도입, BatchNorm 적용, 더 깊은 네트워크
