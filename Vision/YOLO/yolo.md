@@ -64,8 +64,15 @@
 >|confidence|박스 안에 객체가 존재할 확률|
 >|class_probs|객체가 각 클래스일 확률 분포 (Softmax or Sigmoid)|
 >|최종 객체 확률|P(class)×confidence|
-
-
+>
+>
+>|항목|설명|
+>|---|---|
+>|Image Count|검증(validation) 데이터에 포함된 이미지 개수|
+>|Instance Count|검증 데이터에 포함된 객체(annotation) 총 개수|
+>|Precision (정밀도)|모델이 “객체라고 예측한 것” 중에서 실제로 맞춘 비율|
+>|Recall (재현율)|실제로 존재하는 객체 중 모델이 맞춘 비율|
+>|mAP (mean Average Precision)|정확도(Precision)와 재현율(Recall)의 전체 곡선(PR Curve)을 종합해 모델의 진짜 성능을 나타내는 값|
 
 > ### 6. 학습 방식
 >
