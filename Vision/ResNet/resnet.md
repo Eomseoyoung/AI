@@ -1,17 +1,17 @@
 > ### ResNet (Residual Network)
-
+>
 > ResNet은 딥러닝 이미지 인식 분야에서 널리 사용되는 합성곱 신경망(CNN) 구조로,2015년 Microsoft Research에서 발표된 모델이다.
 > 기존의 네트워크가 깊어질수록 학습이 어려워지는 문제를 해결하고, 더 깊은 네트워크에서도 안정적으로 학습이 가능하도록 설계되었다.
 
 > ### 1. 등장 배경
-
+>
 >     딥러닝 모델의 성능은 일반적으로 층(layer)을 깊게 쌓을수록 향상되지만,실제로는 다음과 같은 문제가 발생한다.
 >     기울기 소실(Vanishing Gradient): 역전파 시 앞단으로 갈수록 기울기가 0에 가까워져 학습이 멈춘다.
 >     성능 저하(Degradation Problem): 층을 더 추가해도 훈련 오차가 오히려 증가한다.
 >     ResNet은 이러한 문제를 해결하기 위해 "잔차 연결(Skip Connection)" 개념을 도입했다.
 
 > ### 2. 핵심 아이디어
-
+>
 >     기존의 CNN은 입력을 변환하는 함수를 직접 학습한다.
 > 
 >                         𝑦=𝐹(𝑥)
@@ -67,7 +67,7 @@ class BasicBlock(nn.Module):
 
 
 > ### 4. 모델 구성
-<img width="795" height="262" alt="image" src="https://github.com/user-attachments/assets/c8c2e02c-c5fb-48fe-b92b-8c53dbc75bd6" />
+> <img width="795" height="262" alt="image" src="https://github.com/user-attachments/assets/c8c2e02c-c5fb-48fe-b92b-8c53dbc75bd6" />
 
 > ### 5. 주요 특징
 >     기울기 소실 완화: Skip Connection을 통해 역전파 정보 손실을 최소화
