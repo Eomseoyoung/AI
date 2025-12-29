@@ -143,5 +143,6 @@
 >|YOLOv6 / YOLOv7|산업용 최적화, 더 빠르고 정확한 구조|
 >|YOLOv8 (2023)|Ultralytics 최신 버전, CNN + Transformer 결합, Segment/Track 지원|
 >|YOLO-NAS / RT-DETR 등|하이브리드 또는 차세대 구조 (attention 기반)|
+>|YOLO26|엔드 투 엔드 NMS-free 추론을 통해 에지 배포에 최적화된 Ultralytics의 차세대 YOLO 모델|
 
 
